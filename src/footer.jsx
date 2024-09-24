@@ -4,7 +4,7 @@ import { GiElectric } from "react-icons/gi";
 
 const footer = () => {
   return (
-    <div className='bg-primary text-white py-5 px-10 flex justify-between sm:flex-col items-center'>
+    <div className='bg-primary text-white sm:text-center py-5 px-10 flex justify-between sm:flex-col items-center'>
         <div className='flex  items-center text-2xl font-bold'>
             <GiElectric className='text-subordinate text-4xl' />
             GFM Bliss

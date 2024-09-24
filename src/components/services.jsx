@@ -3,7 +3,7 @@ import { servicesData } from '../constants'
 
 const services = () => {
   return (
-    <div className='flex flex-col  py-20 gap-10'>
+    <div className='flex flex-col  py-20 gap-5'>
         <h1 className='font-bold text-4xl text-center'>Services</h1>
         <div className='grid grid-cols-4 gap-5 sm:grid-cols-1 px-10 sm:px-3'>
             {servicesData.map((item, index)=>(
