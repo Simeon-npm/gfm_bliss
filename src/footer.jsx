@@ -10,9 +10,9 @@ const footer = () => {
             GFM Bliss
         </div>
 
-        <h1 className=''>&copy;2024 GFM Bliss. All rights reserved.</h1>
+        <p className=''>All rights reserved. GFM Bliss - &copy;2024.</p>
 
-        <div></div>
+        
     </div>
   )
 }

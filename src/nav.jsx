@@ -4,8 +4,8 @@ import { MdOutlineMenuOpen } from "react-icons/md";
 
 const nav = () => {
   return (
-    <div className='flex items-center justify-between px-10 sm:px-5 py-5 bg-primary text-white'>
-        <div className='flex items-center text-2xl font-bold'>
+    <div className='flex items-center justify-between px-10 sm:px-5 py-5 md:py-3 bg-primary text-white'>
+        <div className='flex items-center text-2xl md:text-lg font-bold'>
             <GiElectric className='text-subordinate text-4xl' />
             GFM Bliss
         </div>
@@ -18,7 +18,7 @@ const nav = () => {
         </div>
 
         <button className='md:hidden bg-subordinate text-black px-7 py-2 font-semibold rounded'>Get free quote</button>
-        <MdOutlineMenuOpen className='text-4xl hover:text-subordinate hidden md:block' />
+        <MdOutlineMenuOpen className='text-4xl sm:text-2xl hover:text-subordinate hidden md:block' />
         
     </div>
   )
