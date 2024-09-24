@@ -1,17 +1,19 @@
 import React from 'react'
-import Emergency from './emergency-number'
+import EmergencyNumber from './emergency-number'
 import Nav from './nav'
 import Hero from './components/hero'
 import Services from './components/services'
+import Emergency from './components/emergency'
 import Footer from './footer'
 
 const App = () => {
   return (
     <div>
-      <Emergency />
+      <EmergencyNumber />
       <Nav />
       <Hero />
       <Services />
+      <Emergency />
       <Footer />
     </div>
   )
