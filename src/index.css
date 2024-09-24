@@ -8,6 +8,9 @@
     font-family: Raleway;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
 
 .hero{
     background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./assets/hero.jpg);
