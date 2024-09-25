@@ -4,6 +4,7 @@ import Nav from './nav'
 import Hero from './components/hero'
 import Services from './components/services'
 import Emergency from './components/emergency'
+import Qualities from './components/qualities'
 import Footer from './footer'
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Hero />
       <Services />
       <Emergency />
+      <Qualities />
       <Footer />
     </div>
   )
