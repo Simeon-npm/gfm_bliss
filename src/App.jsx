@@ -5,6 +5,7 @@ import Hero from './components/hero'
 import Services from './components/services'
 import Emergency from './components/emergency'
 import Qualities from './components/qualities'
+import Testimonial from './components/testimonial'
 import Footer from './footer'
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Services />
       <Emergency />
       <Qualities />
+      <Testimonial />
       <Footer />
     </div>
   )

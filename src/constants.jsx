@@ -69,3 +69,22 @@ export const qualitiesData = {
   ]
 
 }
+
+export const testimonialData = [
+  {
+    "name": "Sarah Thompson",
+    "service": "Emergency Electrical Repair",
+    "description": "I had a sudden power outage late at night, and their team arrived within 30 minutes. They quickly identified the issue and had everything back up and running in no time. The professionalism and quick response were impressive!"
+  },
+  {
+    "name": "John Martinez",
+    "service": "Residential Lighting Installation",
+    "description": "The team installed new indoor and outdoor lighting in our home, and we couldn’t be happier with the results. They provided excellent advice on energy-efficient options, and their work was clean and precise. Highly recommended!"
+  },
+  {
+    "name": "Emily Ross",
+    "service": "Electrical Panel Upgrade",
+    "description": "Upgrading our old electrical panel was stress-free thanks to their expertise. They explained everything clearly, and the work was done efficiently with minimal disruption. We feel much safer now with our updated system."
+  }
+]
+
