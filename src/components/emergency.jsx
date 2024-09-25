@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaPhoneAlt } from "react-icons/fa";
-import { phoneNumber } from '../constants';
+import { contactItems } from '../constants';
 
 const emergency = () => {
   return (
@@ -10,7 +10,7 @@ const emergency = () => {
 
         <div className='flex items-center gap-3 font-bold'>
             <FaPhoneAlt className='text-subordinate' />
-            {phoneNumber}
+            {contactItems.phoneNumber}
         </div>
     </div>
   )

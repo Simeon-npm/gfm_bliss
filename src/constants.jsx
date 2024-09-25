@@ -5,7 +5,11 @@ import service4 from './assets/construction.png'
 import { FaRegLightbulb, FaBolt, FaClock, FaCalendar, FaNewspaper } from "react-icons/fa";
 import { MdEmergency } from "react-icons/md";
 
-export const phoneNumber = '08023118750'
+export const contactItems = {
+  phoneNumber:'08023118750',
+  email: 'info@gfm.co'
+}
+
 
 export const servicesData = [
     {
