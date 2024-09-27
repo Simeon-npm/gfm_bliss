@@ -8,7 +8,7 @@ const qualities = () => {
         <div>
           {
             qualitiesData.left.map((item, index)=>(
-                <div className='flex md:flex-col-reverse items-center md:items-end text-right max-w-[300px] border-b last-of-type:border-0 py-3'>
+                <div key={index} className='flex md:flex-col-reverse items-center md:items-end text-right max-w-[300px] border-b last-of-type:border-0 py-3'>
                     <div>
                       <h3 className='font-bold text-xl'>{item.title}</h3>
                       <p className='text-neutral-600 text-sm'>{item.description}</p>
@@ -30,7 +30,7 @@ const qualities = () => {
         <div>
           {
             qualitiesData.right.map((item, index)=>(
-                <div className='flex md:flex-col md:items-start items-center text-left justify-between max-w-[300px] border-b last-of-type:border-0 py-3'>
+                <div key={index} className='flex md:flex-col md:items-start items-center text-left justify-between max-w-[300px] border-b last-of-type:border-0 py-3'>
 
                     <div className='bg-primary mr-4 text-white p-3 rounded-full text-2xl'>
                         {item.icon}

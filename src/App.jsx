@@ -6,6 +6,7 @@ import Services from './components/services'
 import Emergency from './components/emergency'
 import Qualities from './components/qualities'
 import Testimonial from './components/testimonial'
+import About from './components/about'
 import FreeQuote from './components/free-quote'
 import Contact from './components/contact'
 import Footer from './footer'
@@ -28,6 +29,7 @@ const App = () => {
       <Emergency />
       <Qualities />
       <Testimonial />
+      <About />
       <FreeQuote />
       <Contact />
       <Footer />
