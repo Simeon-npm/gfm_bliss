@@ -5,7 +5,7 @@ import { ImQuotesLeft } from "react-icons/im";
 const testimonial = () => {
   return (
     <div className='py-14 bg-neutral-100 flex flex-col items-center'>
-        <h1 className='font-bold text-4xl mb-10'>Our Satisfied Clients</h1>
+        <h1 className='font-bold text-4xl mb-10 text-center'>Our Satisfied Clients</h1>
 
         <div className='flex md:flex-col gap-8 px-10 md:px-5'>
             {

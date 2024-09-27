@@ -5,7 +5,7 @@ import { contactItems } from '../constants';
 
 const contact = () => {
   return (
-    <div className='bg-primary flex justify-center gap-8 py-20 px-10'>
+    <div className='bg-primary flex md:flex-col justify-center gap-8 py-20 px-10 md:px-5'>
         <div className='max-w-[500px] text-white space-y-3'>
             <h1 className='font-bold text-3xl'>Contact us today! Let's work together</h1>
             <p className=' text-neutral-300'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cumque dolorum rerum, doloribus repudiandae quae sed eos tenetur aliquid iusto, culpa consequuntur ipsam temporibus in repellat obcaecati assumenda recusandae consectetur.</p>
@@ -27,7 +27,7 @@ const contact = () => {
         </div>
 
 
-        <div className=' min-w-[450px] space-y-3'>
+        <div className=' min-w-[450px] md:min-w-[100%] space-y-3'>
           <h1 className='font-bold text-white text-2xl'>Or send us a message</h1>
           <form action="get" className='flex flex-col '>
             <div className='grid grid-cols-2 gap-3'>

@@ -14,3 +14,9 @@
     background-position: center;
     background-size: cover;
 }
+
+.free-quote{
+    background-image:  url('./assets/electric-tools-table.jpg');
+    background-size: cover;
+    background-position: center;
+}
