@@ -9,6 +9,7 @@ const services = () => {
             {servicesData.map((item, index)=>(
                 <div className=' flex flex-col  px-3 text-left py-5  gap-2 shadow-2xl rounded-lg'>
                   <img src={item.img} alt="" className='h-[200px] rounded-lg w-full object-cover'/>
+
                     <h1 className='text-xl font-semibold text-left'>{item.title}</h1>
                     <p className='text-sm'>{item.description}</p>
                 </div>

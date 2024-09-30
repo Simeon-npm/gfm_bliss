@@ -6,6 +6,7 @@
 
 *{
     font-family: Raleway;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -16,4 +17,10 @@ html {
     background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./assets/hero.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.free-quote{
+    background-image:  url('./assets/electric-tools-table.jpg');
+    background-size: cover;
+    background-position: center;
 }
