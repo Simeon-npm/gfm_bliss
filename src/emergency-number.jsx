@@ -5,7 +5,7 @@ import { contactItems } from './constants';
 const emergency = () => {
   return (
     <div>
-        <div className='flex justify-center py-4 items-center'>
+        <div className='flex justify-center py-4 items-center sm:text-sm'>
             <FaPhoneAlt className='text-subordinate' />
             <p className='font-semibold ml-3'>Give us an emergency call {contactItems.phoneNumber}</p>
         </div>
