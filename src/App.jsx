@@ -10,7 +10,7 @@ import About from './components/about'
 import FreeQuote from './components/free-quote'
 import Contact from './components/contact'
 import Footer from './footer'
-
+import Projects from './components/projects'
 
 const App = () => {
   const [scroll, setScroll] = React.useState(false); // Just a state to trigger re-render
@@ -25,12 +25,13 @@ const App = () => {
       <EmergencyNumber />
       <Nav forceReRender={forceReRender} />
       <Hero />
+      <About />
       <Services />
       <Emergency />
       <Qualities />
       <Testimonial />
-      <About />
       <FreeQuote />
+      <Projects />
       <Contact />
       <Footer />
     </div>

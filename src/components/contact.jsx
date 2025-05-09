@@ -28,7 +28,7 @@ const contact = () => {
     <div id='contact' className='bg-primary flex md:flex-col justify-center gap-8 py-20 px-10 md:px-5'>
         <div className='max-w-[500px] text-white space-y-3'>
             <h1 className='font-bold text-3xl'>Contact us today! Let's work together</h1>
-            <p className=' text-neutral-300'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cumque dolorum rerum, doloribus repudiandae quae sed eos tenetur aliquid iusto, culpa consequuntur ipsam temporibus in repellat obcaecati assumenda recusandae consectetur.</p>
+            <p className='text-neutral-300'>Ready to enhance your electrical systems? Whether you need residential services, commercial solutions, or emergency repairs, our team of certified electricians is here to help. We pride ourselves on delivering reliable, professional service with a commitment to safety and quality workmanship. Reach out now for a free consultation and experience the difference of working with true electrical experts.</p>
             <div className='flex items-center gap-4'>
                 <FaPhoneAlt className='text-subordinate text-3xl'/>
                 <div>

@@ -18,7 +18,7 @@ export default {
       'md': {'max': '768px'},
       // => @media (max-width: 768px) { ... }
 
-      'sm': {'max': '427px'},
+      'sm': {'max': '727px'},
       // => @media (max-width: 425px) { ... }
     },
     

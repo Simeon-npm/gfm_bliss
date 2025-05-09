@@ -10,21 +10,22 @@ const nav = ({forceReRender}) => {
   
   
   return (
-    <div className='sticky top-[0] flex items-center justify-between px-10 sm:px-5 py-5 bg-primary text-white'>
-        <div className='flex items-center text-2xl font-bold'>
+    <div className='flex items-center justify-between px-10 sm:px-5 py-5 md:py-3 bg-primary text-white'>
+        <div className='flex items-center text-2xl md:text-lg font-bold'>
             <GiElectric className='text-subordinate text-4xl' />
             GFM Bliss
         </div>
 
         <div className='flex gap-10 md:hidden'>
             <a href="#home">Home</a>
-            <a href="#services">Services</a>
             <a href="#about">About</a>
+            <a href="#services">Services</a>
             <a href="#contact">Contact</a>
         </div>
 
         <button className='md:hidden bg-subordinate text-black px-7 py-2 font-semibold rounded'>Get free quote</button>
-        {state ? <IoClose className='text-4xl hover:text-subordinate hidden md:block' onClick={()=>(toggleState(), forceReRender())} />:<MdOutlineMenuOpen className='text-4xl hover:text-subordinate hidden md:block' onClick={()=>(toggleState(), forceReRender())} />}
+
+        {state ? <IoClose className='text-4xl md:text-2xl hover:text-subordinate hidden md:block' onClick={()=>(toggleState(), forceReRender())} />:<MdOutlineMenuOpen className='text-4xl hover:text-subordinate hidden md:block' onClick={()=>(toggleState(), forceReRender())} />}
 
         {state && 
         <div className='bg-white p-4 absolute w-full left-0 mt-[250px] text-black flex flex-col gap-4 items-center'>
